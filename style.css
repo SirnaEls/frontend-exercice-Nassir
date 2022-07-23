@@ -1,5 +1,47 @@
 header{
     width: 100px;
     height: 70px;
-    position: fixed;
+}
+
+.search{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    font-family: "Evolventa";
+}
+
+#trouver-commune{
+    width: 477px;
+height: 32px;
+
+font-family: 'Evolventa';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+}
+
+#input-adresse{
+    box-sizing: border-box;
+
+    width: 829px;
+    height: 74px;
+    border: 2px solid #0053B3;
+    border-radius: 10px;
+    flex: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#display-commune{
+    box-sizing: border-box;
+
+    width: 829px;
+    height: 214px;
+
+    border: 2px solid #0053B3;
+    border-radius: 10px;
+
 }
