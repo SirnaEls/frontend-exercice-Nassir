@@ -39,11 +39,20 @@ line-height: 32px;
     box-sizing: border-box;
 
     width: 829px;
-    height: 214px;
+    height: 114px;
 
     border: 2px solid #0053B3;
     border-radius: 10px;
     padding: 10px;
     font-size: 20px;
 
+}
+
+#button-chercher{
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    background-color: #0053B3;
+    color: white;
 }

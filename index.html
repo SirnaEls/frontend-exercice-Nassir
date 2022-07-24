@@ -1,27 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Front-end Exercice</title>
-</head>
-<body>
-<header>
-    <img src="Assets/logo-marianne.svg" alt="">
-</header>
+  </head>
+  <body>
+    <header>
+      <img src="Assets/logo-marianne.svg" alt="" />
+    </header>
 
-<div class="search">
-    <p id="trouver-commune">Trouvez une commune avec une adresse</p>
-    <input id="input-adresse" type="text" placeholder="Saisir une adresse">
-    <div id="display-commune"> </div>
-</div>
-
-
-
-
+    <div class="search">
+      <p id="trouver-commune">Trouvez une commune avec une adresse</p>
+      <input id="input-adresse" type="search" placeholder="Saisir une adresse" />
+        <button id="button-chercher" onclick="getAPI()">Chercher</button>
+      <div id="display-commune"></div>
+      <form></form>
+    </div>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
