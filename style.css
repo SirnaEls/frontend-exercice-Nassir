@@ -1,58 +1,102 @@
-header{
-    width: 100px;
-    height: 70px;
+header {
+  width: 100px;
+  height: 70px;
 }
 
-.search{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0px;
-    gap: 20px;
-    font-family: "Evolventa";
+.search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 20px;
+  font-family: "Evolventa";
 }
 
-#trouver-commune{
-    width: 477px;
-height: 32px;
+#trouver-commune {
+  width: 485px;
+  height: 32px;
 
-font-family: 'Evolventa';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 32px;
+  font-family: "Evolventa";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
 }
 
-#input-adresse{
-    box-sizing: border-box;
+#input-adresse {
+  box-sizing: border-box;
 
-    width: 829px;
-    height: 74px;
-    border: 2px solid #0053B3;
-    border-radius: 10px;
-    flex: none;
-    font-size: 20px;
-    padding: 10px;
+  width: 829px;
+  height: 74px;
+  border: 2px solid #0053b3;
+  border-radius: 10px;
+  flex: none;
+  font-size: 20px;
+  padding: 10px;
 }
 
-#display-commune{
-    box-sizing: border-box;
+#display-commune {
+  box-sizing: border-box;
 
-    width: 829px;
-    height: 114px;
+  width: 829px;
+  height: auto;
 
-    border: 2px solid #0053B3;
-    border-radius: 10px;
-    padding: 10px;
-    font-size: 20px;
-
+  border: 2px solid #0053b3;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
 }
 
-#button-chercher{
-    border: none;
-    padding: 10px;
-    border-radius: 10px;
-    width: 200px;
-    background-color: #0053B3;
-    color: white;
+#button-chercher {
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  width: 200px;
+  background-color: #0053b3;
+  color: white;
+}
+
+.department {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 20px;
+  font-family: "Evolventa";
+}
+
+#commune-department {
+  width: 485px;
+  height: 32px;
+
+  font-family: "Evolventa";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+#department-select {
+  box-sizing: border-box;
+
+  width: 829px;
+  height: 74px;
+  left: 305.5px;
+  top: 620.53px;
+  padding: 10px;
+
+  border: 2px solid #0053b3;
+  border-radius: 10px;
+}
+
+#display-commune-department{
+  box-sizing: border-box;
+
+  width: 829px;
+  height: auto;
+
+  border: 2px solid #0053b3;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
 }

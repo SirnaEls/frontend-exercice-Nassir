@@ -11,13 +11,23 @@
     <header>
       <img src="Assets/logo-marianne.svg" alt="" />
     </header>
-
+<!-- Création de la partie recherche d'une commune selon une adresse donné -->
     <div class="search">
       <p id="trouver-commune">Trouvez une commune avec une adresse</p>
       <input id="input-adresse" type="search" placeholder="Saisir une adresse" />
         <button id="button-chercher" onclick="getAPI()">Chercher</button>
       <div id="display-commune"></div>
-      <form></form>
+    </div>
+<!-- Création de la partie, lister les communes des différents départements -->
+
+    <div class="department">
+        <p id="commune-department">Afficher les communes d’un département</p>
+        <select name="department" id="department-select">
+            <option value="">--Choisir un département--</option>
+        </select>
+
+    <div id="display-commune-department"></div>
+
     </div>
 
     <script src="script.js"></script>
