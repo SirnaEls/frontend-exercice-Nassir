@@ -1,3 +1,5 @@
+// Cette fonction permets lorsque l'on rentre une adresse donné, elle nous revnoie les communes associées via l'API. 
+
 function getAPI() {
   let inputCommune = document.getElementById("input-adresse").value;
   let displayCommune = document.getElementById("display-commune")
@@ -12,6 +14,8 @@ function getAPI() {
     })))
     
 }
+
+// Cette fonction permets de récupérer l'ensemble des départements dans le selecteur via l'API. 
 
 function getDepartment(){
     let getDepartment = document.getElementById("department-select");
@@ -30,6 +34,7 @@ function getDepartment(){
 
 getDepartment()
 
+// Cette fonction permets lorsque l'on choisit un département via le selecteur, nous renvoies toutes les communes associées via l'API. . 
 
 
 let displayCommunesInDepartment = document.getElementById("display-commune-department")
